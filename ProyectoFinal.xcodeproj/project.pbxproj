@@ -13,6 +13,9 @@
 		0E262EDA2AF737B000C3CE26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E262ED92AF737B000C3CE26 /* Preview Assets.xcassets */; };
 		0E262EE52AF737B100C3CE26 /* ProyectoFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E262EE42AF737B100C3CE26 /* ProyectoFinalTests.swift */; };
 		0E262EF02AF737B100C3CE26 /* ProyectoFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E262EEF2AF737B100C3CE26 /* ProyectoFinalUITests.swift */; };
+		0E262F012AF7431A00C3CE26 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E262F002AF7431A00C3CE26 /* Colores.swift */; };
+		0E262F2F2AFB35ED00C3CE26 /* CreacionCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E262F2E2AFB35ED00C3CE26 /* CreacionCuenta.swift */; };
+		0E6A86942B00027F0053F94B /* VistaPrincioal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A86932B00027F0053F94B /* VistaPrincioal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		0E262EEB2AF737B100C3CE26 /* ProyectoFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E262EEF2AF737B100C3CE26 /* ProyectoFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoFinalUITests.swift; sourceTree = "<group>"; };
 		0E262EF12AF737B100C3CE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E262F002AF7431A00C3CE26 /* Colores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
+		0E262F2E2AFB35ED00C3CE26 /* CreacionCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreacionCuenta.swift; sourceTree = "<group>"; };
+		0E6A86932B00027F0053F94B /* VistaPrincioal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaPrincioal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,12 @@
 		0E262ED12AF737AF00C3CE26 /* ProyectoFinal */ = {
 			isa = PBXGroup;
 			children = (
+				0E262F2D2AFB35D600C3CE26 /* vistas */,
 				0E262ED22AF737AF00C3CE26 /* ProyectoFinalApp.swift */,
-				0E262ED42AF737AF00C3CE26 /* ContentView.swift */,
 				0E262ED62AF737B000C3CE26 /* Assets.xcassets */,
 				0E262EDB2AF737B000C3CE26 /* Info.plist */,
 				0E262ED82AF737B000C3CE26 /* Preview Content */,
+				0E262F002AF7431A00C3CE26 /* Colores.swift */,
 			);
 			path = ProyectoFinal;
 			sourceTree = "<group>";
@@ -128,6 +135,16 @@
 				0E262EF12AF737B100C3CE26 /* Info.plist */,
 			);
 			path = ProyectoFinalUITests;
+			sourceTree = "<group>";
+		};
+		0E262F2D2AFB35D600C3CE26 /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				0E262ED42AF737AF00C3CE26 /* ContentView.swift */,
+				0E262F2E2AFB35ED00C3CE26 /* CreacionCuenta.swift */,
+				0E6A86932B00027F0053F94B /* VistaPrincioal.swift */,
+			);
+			path = vistas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E262ED52AF737AF00C3CE26 /* ContentView.swift in Sources */,
+				0E6A86942B00027F0053F94B /* VistaPrincioal.swift in Sources */,
+				0E262F012AF7431A00C3CE26 /* Colores.swift in Sources */,
 				0E262ED32AF737AF00C3CE26 /* ProyectoFinalApp.swift in Sources */,
+				0E262F2F2AFB35ED00C3CE26 /* CreacionCuenta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
